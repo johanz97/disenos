@@ -4,6 +4,9 @@ class BasicDesignScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Diseño Básico'),
+      ),
       body: Column(
         children: [
           Image(
@@ -38,7 +41,7 @@ class Title extends StatelessWidget {
               ),
               Text(
                 'Kandersted, Switzerland',
-                style: TextStyle(color: Colors.black45),
+                style: TextStyle(color: Colors.white54),
               ),
             ],
           ),

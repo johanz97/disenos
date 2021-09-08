@@ -84,12 +84,13 @@ class Page2 extends StatelessWidget {
       color: Colors.lightBlueAccent,
       child: Center(
         child: TextButton(
+          onLongPress: () => Navigator.pushNamed(context, 'home'),
           style: TextButton.styleFrom(
               backgroundColor: Colors.lightBlue, shape: StadiumBorder()),
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 40),
             child: Text(
-              'Bienvenido',
+              'Regresar',
               style: TextStyle(color: Colors.white, fontSize: 30),
             ),
           ),
